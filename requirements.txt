@@ -13,3 +13,20 @@ flask>=2.0.0
 
 # ML (opcional - solo si se re-entrena el modelo)
 scikit-learn>=1.0.0
+
+# ──────────────────────────────────────────────────────────────
+# ENTRENAMIENTO CON GPU (opcional - solo si quieres re-entrenar)
+# ──────────────────────────────────────────────────────────────
+
+# PyTorch - CPU (por defecto)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# PyTorch - GPU (CUDA 11.8) — descomenta y usa en lugar de las líneas anteriores:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# PyTorch - GPU (CUDA 12.1):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+# NVFLARE (framework FL de NVIDIA) - requerido para re-entrenar
+nvflare>=2.4.0

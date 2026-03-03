@@ -1,0 +1,58 @@
+# Configuracion de NVFLARE para Fashion-MNIST
+# Este archivo define la estructura del job de FL
+
+format_version: 2
+
+# ID del job
+id: fashion_mnist_fedavg
+
+# Configuracion del servidor
+server:
+  heart_beat_timeout: 600
+  
+# Lista de clientes
+clients:
+  - client_1
+  - client_2
+  - client_3
+
+# Workflows - define como se ejecuta el entrenamiento
+workflows:
+  - id: scatter_gather
+    name: ScatterAndGather
+    args:
+      min_clients: 3
+      num_rounds: 3
+      start_round: 0
+      wait_time_after_min_received: 10
+      aggregator_id: aggregator
+      persistor_id: persistor
+      shareable_generator_id: shareable_generator
+      train_task_name: train
+      train_timeout: 300
+
+# Componentes del servidor
+components:
+  - id: persistor
+    path: nvflare.app_opt.pt.file_model_persistor.PTFileModelPersistor
+    args:
+      model:
+        path: fashion_mnist_net.FashionMNISTNet
+  
+  - id: shareable_generator
+    path: nvflare.app_common.shareablegenerators.full_model_shareable_generator.FullModelShareableGenerator
+    args: {}
+  
+  - id: aggregator
+    path: nvflare.app_common.aggregators.intime_accumulate_model_aggregator.InTimeAccumulateWeightedAggregator
+    args:
+      expected_data_kind: WEIGHTS
+
+  - id: model_selector
+    path: nvflare.app_common.widgets.intime_model_selector.IntimeModelSelector
+    args: {}
+
+  - id: model_locator
+    path: nvflare.app_opt.pt.file_model_locator.PTFileModelLocator
+    args:
+      pt_persistor_id: persistor

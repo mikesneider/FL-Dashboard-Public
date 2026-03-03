@@ -1,0 +1,38 @@
+# Configuracion de cliente NVFLARE para Fashion-MNIST
+
+format_version: 2
+
+# Executors - define que hace el cliente cuando recibe tareas
+executors:
+  - tasks:
+      - train
+    executor:
+      id: Executor
+      path: nvflare.app_opt.pt.client_api_launcher_executor.PTClientAPILauncherExecutor
+      args:
+        launcher_id: launcher
+        pipe_id: pipe
+        heartbeat_timeout: 60
+        params_exchange_format: pytorch
+        params_transfer_type: FULL
+        train_with_evaluation: true
+
+# Componentes del cliente
+components:
+  - id: launcher
+    path: nvflare.app_common.launchers.subprocess_launcher.SubprocessLauncher
+    args:
+      script: "python fashion_mnist_trainer.py"
+      launch_once: true
+
+  - id: pipe
+    path: nvflare.fuel.utils.pipe.file_pipe.FilePipe
+    args:
+      mode: PASSIVE
+      root_path: /tmp/nvflare/fashion_mnist
+
+  - id: metrics_writer
+    path: nvflare.app_opt.tracking.tb.tb_receiver.TBAnalyticsReceiver
+    args:
+      events:
+        - fed.analytix_log_stats
