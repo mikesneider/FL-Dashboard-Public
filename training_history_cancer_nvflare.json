@@ -1,0 +1,391 @@
+[
+  {
+    "round": 0,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.6403508771929824,
+      "sensitivity": 0.07142857142857142,
+      "specificity": 0.9722222222222222,
+      "tp": 3,
+      "tn": 70,
+      "fp": 2,
+      "fn": 39
+    },
+    "client_metrics": [],
+    "timing": {
+      "fl_training_time": 0.0
+    }
+  },
+  {
+    "round": 1,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.9385964912280702,
+      "sensitivity": 0.9047619047619048,
+      "specificity": 0.9583333333333334,
+      "tp": 38,
+      "tn": 69,
+      "fp": 3,
+      "fn": 4
+    },
+    "client_metrics": [
+      {
+        "client_id": 0,
+        "metrics": {
+          "accuracy": 0.8939393939393939,
+          "sensitivity": 0.7777777777777778,
+          "specificity": 0.9743589743589743,
+          "tp": 42,
+          "tn": 76,
+          "fp": 2,
+          "fn": 12
+        },
+        "fl_training_time": 3.7568366527557373
+      },
+      {
+        "client_id": 1,
+        "metrics": {
+          "accuracy": 0.9545454545454546,
+          "sensitivity": 0.9038461538461539,
+          "specificity": 0.9875,
+          "tp": 47,
+          "tn": 79,
+          "fp": 1,
+          "fn": 5
+        },
+        "fl_training_time": 0.19966769218444824
+      },
+      {
+        "client_id": 2,
+        "metrics": {
+          "accuracy": 0.9701492537313433,
+          "sensitivity": 0.9302325581395349,
+          "specificity": 0.989010989010989,
+          "tp": 40,
+          "tn": 90,
+          "fp": 1,
+          "fn": 3
+        },
+        "fl_training_time": 0.2385854721069336
+      }
+    ],
+    "timing": {
+      "round_time": 4.313131093978882,
+      "hospitals": {
+        "hospital_0": 3.7568366527557373,
+        "hospital_1": 0.19966769218444824,
+        "hospital_2": 0.2385854721069336
+      }
+    }
+  },
+  {
+    "round": 2,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.956140350877193,
+      "sensitivity": 0.9523809523809523,
+      "specificity": 0.9583333333333334,
+      "tp": 40,
+      "tn": 69,
+      "fp": 3,
+      "fn": 2
+    },
+    "client_metrics": [
+      {
+        "client_id": 0,
+        "metrics": {
+          "accuracy": 0.9621212121212122,
+          "sensitivity": 0.9259259259259259,
+          "specificity": 0.9871794871794872,
+          "tp": 50,
+          "tn": 77,
+          "fp": 1,
+          "fn": 4
+        },
+        "fl_training_time": 0.2539215087890625
+      },
+      {
+        "client_id": 1,
+        "metrics": {
+          "accuracy": 0.9772727272727273,
+          "sensitivity": 0.9807692307692307,
+          "specificity": 0.975,
+          "tp": 51,
+          "tn": 78,
+          "fp": 2,
+          "fn": 1
+        },
+        "fl_training_time": 0.26740264892578125
+      },
+      {
+        "client_id": 2,
+        "metrics": {
+          "accuracy": 0.9850746268656716,
+          "sensitivity": 0.9767441860465116,
+          "specificity": 0.989010989010989,
+          "tp": 42,
+          "tn": 90,
+          "fp": 1,
+          "fn": 1
+        },
+        "fl_training_time": 0.7832882404327393
+      }
+    ],
+    "timing": {
+      "round_time": 1.45103120803833,
+      "hospitals": {
+        "hospital_0": 0.2539215087890625,
+        "hospital_1": 0.26740264892578125,
+        "hospital_2": 0.7832882404327393
+      }
+    }
+  },
+  {
+    "round": 3,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.9473684210526315,
+      "sensitivity": 0.9761904761904762,
+      "specificity": 0.9305555555555556,
+      "tp": 41,
+      "tn": 67,
+      "fp": 5,
+      "fn": 1
+    },
+    "client_metrics": [
+      {
+        "client_id": 0,
+        "metrics": {
+          "accuracy": 0.9696969696969697,
+          "sensitivity": 0.9814814814814815,
+          "specificity": 0.9615384615384616,
+          "tp": 53,
+          "tn": 75,
+          "fp": 3,
+          "fn": 1
+        },
+        "fl_training_time": 0.25667381286621094
+      },
+      {
+        "client_id": 1,
+        "metrics": {
+          "accuracy": 0.9848484848484849,
+          "sensitivity": 0.9807692307692307,
+          "specificity": 0.9875,
+          "tp": 51,
+          "tn": 79,
+          "fp": 1,
+          "fn": 1
+        },
+        "fl_training_time": 0.24065852165222168
+      },
+      {
+        "client_id": 2,
+        "metrics": {
+          "accuracy": 0.9925373134328358,
+          "sensitivity": 0.9767441860465116,
+          "specificity": 1.0,
+          "tp": 42,
+          "tn": 91,
+          "fp": 0,
+          "fn": 1
+        },
+        "fl_training_time": 0.2573232650756836
+      }
+    ],
+    "timing": {
+      "round_time": 0.8481028079986572,
+      "hospitals": {
+        "hospital_0": 0.25667381286621094,
+        "hospital_1": 0.24065852165222168,
+        "hospital_2": 0.2573232650756836
+      }
+    }
+  },
+  {
+    "round": 4,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.9824561403508771,
+      "sensitivity": 0.9761904761904762,
+      "specificity": 0.9861111111111112,
+      "tp": 41,
+      "tn": 71,
+      "fp": 1,
+      "fn": 1
+    },
+    "client_metrics": [
+      {
+        "client_id": 0,
+        "metrics": {
+          "accuracy": 0.9696969696969697,
+          "sensitivity": 0.9444444444444444,
+          "specificity": 0.9871794871794872,
+          "tp": 51,
+          "tn": 77,
+          "fp": 1,
+          "fn": 3
+        },
+        "fl_training_time": 0.29198288917541504
+      },
+      {
+        "client_id": 1,
+        "metrics": {
+          "accuracy": 0.9848484848484849,
+          "sensitivity": 0.9807692307692307,
+          "specificity": 0.9875,
+          "tp": 51,
+          "tn": 79,
+          "fp": 1,
+          "fn": 1
+        },
+        "fl_training_time": 0.23804759979248047
+      },
+      {
+        "client_id": 2,
+        "metrics": {
+          "accuracy": 0.9925373134328358,
+          "sensitivity": 0.9767441860465116,
+          "specificity": 1.0,
+          "tp": 42,
+          "tn": 91,
+          "fp": 0,
+          "fn": 1
+        },
+        "fl_training_time": 0.24647235870361328
+      }
+    ],
+    "timing": {
+      "round_time": 0.8712127208709717,
+      "hospitals": {
+        "hospital_0": 0.29198288917541504,
+        "hospital_1": 0.23804759979248047,
+        "hospital_2": 0.24647235870361328
+      }
+    }
+  },
+  {
+    "round": 5,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.9824561403508771,
+      "sensitivity": 0.9761904761904762,
+      "specificity": 0.9861111111111112,
+      "tp": 41,
+      "tn": 71,
+      "fp": 1,
+      "fn": 1
+    },
+    "client_metrics": [
+      {
+        "client_id": 0,
+        "metrics": {
+          "accuracy": 0.9696969696969697,
+          "sensitivity": 0.9444444444444444,
+          "specificity": 0.9871794871794872,
+          "tp": 51,
+          "tn": 77,
+          "fp": 1,
+          "fn": 3
+        },
+        "fl_training_time": 0.24599814414978027
+      },
+      {
+        "client_id": 1,
+        "metrics": {
+          "accuracy": 0.9848484848484849,
+          "sensitivity": 0.9807692307692307,
+          "specificity": 0.9875,
+          "tp": 51,
+          "tn": 79,
+          "fp": 1,
+          "fn": 1
+        },
+        "fl_training_time": 0.37952733039855957
+      },
+      {
+        "client_id": 2,
+        "metrics": {
+          "accuracy": 0.9925373134328358,
+          "sensitivity": 0.9767441860465116,
+          "specificity": 1.0,
+          "tp": 42,
+          "tn": 91,
+          "fp": 0,
+          "fn": 1
+        },
+        "fl_training_time": 0.24381303787231445
+      }
+    ],
+    "timing": {
+      "round_time": 0.9421350955963135,
+      "hospitals": {
+        "hospital_0": 0.24599814414978027,
+        "hospital_1": 0.37952733039855957,
+        "hospital_2": 0.24381303787231445
+      }
+    }
+  },
+  {
+    "round": 6,
+    "phase": "fine_tuning",
+    "global_metrics": {
+      "accuracy": 0.9824561403508771,
+      "sensitivity": 0.9761904761904762,
+      "specificity": 0.9861111111111112,
+      "tp": 41,
+      "tn": 71,
+      "fp": 1,
+      "fn": 1
+    },
+    "refined_models": [
+      {
+        "client_id": 0,
+        "refined_metrics": {
+          "accuracy": 0.9696969696969697,
+          "sensitivity": 0.9629629629629629,
+          "specificity": 0.9743589743589743,
+          "tp": 52,
+          "tn": 76,
+          "fp": 2,
+          "fn": 2
+        },
+        "finetune_time": 0.03822755813598633
+      },
+      {
+        "client_id": 1,
+        "refined_metrics": {
+          "accuracy": 0.9848484848484849,
+          "sensitivity": 0.9615384615384616,
+          "specificity": 1.0,
+          "tp": 50,
+          "tn": 80,
+          "fp": 0,
+          "fn": 2
+        },
+        "finetune_time": 0.07133984565734863
+      },
+      {
+        "client_id": 2,
+        "refined_metrics": {
+          "accuracy": 0.9925373134328358,
+          "sensitivity": 0.9767441860465116,
+          "specificity": 1.0,
+          "tp": 42,
+          "tn": 91,
+          "fp": 0,
+          "fn": 1
+        },
+        "finetune_time": 0.05379748344421387
+      }
+    ],
+    "timing": {
+      "finetune_total_time": 0.21799254417419434,
+      "hospitals": {
+        "hospital_0": 0.03822755813598633,
+        "hospital_1": 0.07133984565734863,
+        "hospital_2": 0.05379748344421387
+      }
+    }
+  }
+]

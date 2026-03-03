@@ -1,0 +1,1256 @@
+[
+  {
+    "round": 0,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.33015873015873015,
+      "class_metrics": {
+        "class_0": {
+          "precision": 0.49572649572649574,
+          "recall": 0.3258426966292135,
+          "f1": 0.39322033898305087,
+          "tp": 58,
+          "tn": 78,
+          "fp": 59,
+          "fn": 120
+        },
+        "class_1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "tn": 231,
+          "fp": 0,
+          "fn": 84
+        },
+        "class_2": {
+          "precision": 0.23232323232323232,
+          "recall": 0.8679245283018868,
+          "f1": 0.36653386454183273,
+          "tp": 46,
+          "tn": 110,
+          "fp": 152,
+          "fn": 7
+        }
+      }
+    },
+    "client_metrics": [],
+    "timing": {
+      "round_time": 0
+    }
+  },
+  {
+    "round": 1,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.35555555555555557,
+      "class_metrics": {
+        "class_0": {
+          "precision": 1.0,
+          "recall": 0.33146067415730335,
+          "f1": 0.49789029535864976,
+          "tp": 59,
+          "tn": 137,
+          "fp": 0,
+          "fn": 119
+        },
+        "class_1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "tn": 231,
+          "fp": 0,
+          "fn": 84
+        },
+        "class_2": {
+          "precision": 0.20703125,
+          "recall": 1.0,
+          "f1": 0.343042071197411,
+          "tp": 53,
+          "tn": 59,
+          "fp": 203,
+          "fn": 0
+        }
+      }
+    },
+    "client_metrics": [
+      {
+        "accuracy": 0.7492063492063492,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.8121546961325967,
+            "recall": 0.8258426966292135,
+            "f1": 0.818941504178273,
+            "tp": 147,
+            "tn": 103,
+            "fp": 34,
+            "fn": 31
+          },
+          "class_1": {
+            "precision": 0.6909090909090909,
+            "recall": 0.4523809523809524,
+            "f1": 0.5467625899280576,
+            "tp": 38,
+            "tn": 214,
+            "fp": 17,
+            "fn": 46
+          },
+          "class_2": {
+            "precision": 0.6455696202531646,
+            "recall": 0.9622641509433962,
+            "f1": 0.7727272727272728,
+            "tp": 51,
+            "tn": 234,
+            "fp": 28,
+            "fn": 2
+          }
+        },
+        "client_id": 0,
+        "train_time": 24.323430061340332,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 182.4,
+            "memory_reserved_mb": 414.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3681.5,
+            "utilization_percent": 10.11
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 327.82,
+            "memory_reserved_mb": 818.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3277.5,
+            "utilization_percent": 19.97
+          },
+          "peak_memory_mb": 818.0
+        }
+      },
+      {
+        "accuracy": 0.7714285714285715,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.9230769230769231,
+            "recall": 0.8089887640449438,
+            "f1": 0.8622754491017964,
+            "tp": 144,
+            "tn": 125,
+            "fp": 12,
+            "fn": 34
+          },
+          "class_1": {
+            "precision": 1.0,
+            "recall": 0.5714285714285714,
+            "f1": 0.7272727272727273,
+            "tp": 48,
+            "tn": 231,
+            "fp": 0,
+            "fn": 36
+          },
+          "class_2": {
+            "precision": 0.4594594594594595,
+            "recall": 0.9622641509433962,
+            "f1": 0.6219512195121951,
+            "tp": 51,
+            "tn": 202,
+            "fp": 60,
+            "fn": 2
+          }
+        },
+        "client_id": 1,
+        "train_time": 22.804997444152832,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 233.65,
+            "memory_reserved_mb": 818.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3277.5,
+            "utilization_percent": 19.97
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 368.4,
+            "memory_reserved_mb": 822.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3273.5,
+            "utilization_percent": 20.07
+          },
+          "peak_memory_mb": 822.0
+        }
+      },
+      {
+        "accuracy": 0.6126984126984127,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.8360655737704918,
+            "recall": 0.5730337078651685,
+            "f1": 0.6799999999999999,
+            "tp": 102,
+            "tn": 117,
+            "fp": 20,
+            "fn": 76
+          },
+          "class_1": {
+            "precision": 0.5416666666666666,
+            "recall": 0.4642857142857143,
+            "f1": 0.5,
+            "tp": 39,
+            "tn": 198,
+            "fp": 33,
+            "fn": 45
+          },
+          "class_2": {
+            "precision": 0.4297520661157025,
+            "recall": 0.9811320754716981,
+            "f1": 0.5977011494252873,
+            "tp": 52,
+            "tn": 193,
+            "fp": 69,
+            "fn": 1
+          }
+        },
+        "client_id": 2,
+        "train_time": 22.789187908172607,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 278.26,
+            "memory_reserved_mb": 920.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3175.5,
+            "utilization_percent": 22.46
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 412.81,
+            "memory_reserved_mb": 924.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3171.5,
+            "utilization_percent": 22.56
+          },
+          "peak_memory_mb": 924.0
+        }
+      }
+    ],
+    "timing": {
+      "round_time": 112.67666006088257,
+      "total_fl_time": 112.67702126502991
+    }
+  },
+  {
+    "round": 2,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.4031746031746032,
+      "class_metrics": {
+        "class_0": {
+          "precision": 0.6324786324786325,
+          "recall": 0.4157303370786517,
+          "f1": 0.5016949152542374,
+          "tp": 74,
+          "tn": 94,
+          "fp": 43,
+          "fn": 104
+        },
+        "class_1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "tn": 231,
+          "fp": 0,
+          "fn": 84
+        },
+        "class_2": {
+          "precision": 0.2676767676767677,
+          "recall": 1.0,
+          "f1": 0.4223107569721115,
+          "tp": 53,
+          "tn": 117,
+          "fp": 145,
+          "fn": 0
+        }
+      }
+    },
+    "client_metrics": [
+      {
+        "accuracy": 0.653968253968254,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.6202090592334495,
+            "recall": 1.0,
+            "f1": 0.7655913978494624,
+            "tp": 178,
+            "tn": 28,
+            "fp": 109,
+            "fn": 0
+          },
+          "class_1": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "tn": 231,
+            "fp": 0,
+            "fn": 84
+          },
+          "class_2": {
+            "precision": 1.0,
+            "recall": 0.5283018867924528,
+            "f1": 0.6913580246913581,
+            "tp": 28,
+            "tn": 262,
+            "fp": 0,
+            "fn": 25
+          }
+        },
+        "client_id": 0,
+        "train_time": 22.403911113739014,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 322.18,
+            "memory_reserved_mb": 924.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3171.5,
+            "utilization_percent": 22.56
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 417.74,
+            "memory_reserved_mb": 924.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3171.5,
+            "utilization_percent": 22.56
+          },
+          "peak_memory_mb": 924.0
+        }
+      },
+      {
+        "accuracy": 0.7047619047619048,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.6705426356589147,
+            "recall": 0.9719101123595506,
+            "f1": 0.793577981651376,
+            "tp": 173,
+            "tn": 52,
+            "fp": 85,
+            "fn": 5
+          },
+          "class_1": {
+            "precision": 0.8695652173913043,
+            "recall": 0.23809523809523808,
+            "f1": 0.37383177570093457,
+            "tp": 20,
+            "tn": 228,
+            "fp": 3,
+            "fn": 64
+          },
+          "class_2": {
+            "precision": 0.8529411764705882,
+            "recall": 0.5471698113207547,
+            "f1": 0.6666666666666666,
+            "tp": 29,
+            "tn": 257,
+            "fp": 5,
+            "fn": 24
+          }
+        },
+        "client_id": 1,
+        "train_time": 22.187371253967285,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 322.98,
+            "memory_reserved_mb": 924.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3171.5,
+            "utilization_percent": 22.56
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 411.5,
+            "memory_reserved_mb": 924.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3171.5,
+            "utilization_percent": 22.56
+          },
+          "peak_memory_mb": 924.0
+        }
+      },
+      {
+        "accuracy": 0.6857142857142857,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.831081081081081,
+            "recall": 0.6910112359550562,
+            "f1": 0.754601226993865,
+            "tp": 123,
+            "tn": 112,
+            "fp": 25,
+            "fn": 55
+          },
+          "class_1": {
+            "precision": 0.82,
+            "recall": 0.4880952380952381,
+            "f1": 0.6119402985074627,
+            "tp": 41,
+            "tn": 222,
+            "fp": 9,
+            "fn": 43
+          },
+          "class_2": {
+            "precision": 0.4444444444444444,
+            "recall": 0.9811320754716981,
+            "f1": 0.611764705882353,
+            "tp": 52,
+            "tn": 197,
+            "fp": 65,
+            "fn": 1
+          }
+        },
+        "client_id": 2,
+        "train_time": 21.638450860977173,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 321.56,
+            "memory_reserved_mb": 924.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3171.5,
+            "utilization_percent": 22.56
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 411.39,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      }
+    ],
+    "timing": {
+      "round_time": 109.04338097572327,
+      "total_fl_time": 221.72064542770386
+    }
+  },
+  {
+    "round": 3,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.6730158730158731,
+      "class_metrics": {
+        "class_0": {
+          "precision": 0.8011363636363636,
+          "recall": 0.7921348314606742,
+          "f1": 0.7966101694915255,
+          "tp": 141,
+          "tn": 102,
+          "fp": 35,
+          "fn": 37
+        },
+        "class_1": {
+          "precision": 1.0,
+          "recall": 0.2619047619047619,
+          "f1": 0.41509433962264153,
+          "tp": 22,
+          "tn": 231,
+          "fp": 0,
+          "fn": 62
+        },
+        "class_2": {
+          "precision": 0.4188034188034188,
+          "recall": 0.9245283018867925,
+          "f1": 0.5764705882352941,
+          "tp": 49,
+          "tn": 194,
+          "fp": 68,
+          "fn": 4
+        }
+      }
+    },
+    "client_metrics": [
+      {
+        "accuracy": 0.7492063492063492,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.7935779816513762,
+            "recall": 0.9719101123595506,
+            "f1": 0.8737373737373737,
+            "tp": 173,
+            "tn": 92,
+            "fp": 45,
+            "fn": 5
+          },
+          "class_1": {
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "f1": 0.25,
+            "tp": 12,
+            "tn": 231,
+            "fp": 0,
+            "fn": 72
+          },
+          "class_2": {
+            "precision": 0.6,
+            "recall": 0.9622641509433962,
+            "f1": 0.7391304347826086,
+            "tp": 51,
+            "tn": 228,
+            "fp": 34,
+            "fn": 2
+          }
+        },
+        "client_id": 0,
+        "train_time": 22.658014059066772,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 320.76,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 413.9,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.5746031746031746,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.7674418604651163,
+            "recall": 0.5561797752808989,
+            "f1": 0.6449511400651466,
+            "tp": 99,
+            "tn": 107,
+            "fp": 30,
+            "fn": 79
+          },
+          "class_1": {
+            "precision": 0.44086021505376344,
+            "recall": 0.9761904761904762,
+            "f1": 0.6074074074074074,
+            "tp": 82,
+            "tn": 127,
+            "fp": 104,
+            "fn": 2
+          },
+          "class_2": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "tn": 262,
+            "fp": 0,
+            "fn": 53
+          }
+        },
+        "client_id": 1,
+        "train_time": 28.96204376220703,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 320.91,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 409.85,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.7968253968253968,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.8622754491017964,
+            "recall": 0.8089887640449438,
+            "f1": 0.8347826086956522,
+            "tp": 144,
+            "tn": 114,
+            "fp": 23,
+            "fn": 34
+          },
+          "class_1": {
+            "precision": 0.8939393939393939,
+            "recall": 0.7023809523809523,
+            "f1": 0.7866666666666666,
+            "tp": 59,
+            "tn": 224,
+            "fp": 7,
+            "fn": 25
+          },
+          "class_2": {
+            "precision": 0.5853658536585366,
+            "recall": 0.9056603773584906,
+            "f1": 0.711111111111111,
+            "tp": 48,
+            "tn": 228,
+            "fp": 34,
+            "fn": 5
+          }
+        },
+        "client_id": 2,
+        "train_time": 25.5711829662323,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 320.97,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 411.37,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      }
+    ],
+    "timing": {
+      "round_time": 122.79952216148376,
+      "total_fl_time": 344.52047777175903
+    }
+  },
+  {
+    "round": 4,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.7301587301587301,
+      "class_metrics": {
+        "class_0": {
+          "precision": 0.9395973154362416,
+          "recall": 0.7865168539325843,
+          "f1": 0.8562691131498471,
+          "tp": 140,
+          "tn": 128,
+          "fp": 9,
+          "fn": 38
+        },
+        "class_1": {
+          "precision": 1.0,
+          "recall": 0.4523809523809524,
+          "f1": 0.6229508196721312,
+          "tp": 38,
+          "tn": 231,
+          "fp": 0,
+          "fn": 46
+        },
+        "class_2": {
+          "precision": 0.40625,
+          "recall": 0.9811320754716981,
+          "f1": 0.574585635359116,
+          "tp": 52,
+          "tn": 186,
+          "fp": 76,
+          "fn": 1
+        }
+      }
+    },
+    "client_metrics": [
+      {
+        "accuracy": 0.726984126984127,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.8363636363636363,
+            "recall": 0.7752808988764045,
+            "f1": 0.8046647230320699,
+            "tp": 138,
+            "tn": 110,
+            "fp": 27,
+            "fn": 40
+          },
+          "class_1": {
+            "precision": 0.78,
+            "recall": 0.4642857142857143,
+            "f1": 0.582089552238806,
+            "tp": 39,
+            "tn": 220,
+            "fp": 11,
+            "fn": 45
+          },
+          "class_2": {
+            "precision": 0.52,
+            "recall": 0.9811320754716981,
+            "f1": 0.6797385620915032,
+            "tp": 52,
+            "tn": 214,
+            "fp": 48,
+            "fn": 1
+          }
+        },
+        "client_id": 0,
+        "train_time": 26.616865158081055,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 321.39,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 415.85,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.6126984126984127,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.9444444444444444,
+            "recall": 0.47752808988764045,
+            "f1": 0.6343283582089553,
+            "tp": 85,
+            "tn": 132,
+            "fp": 5,
+            "fn": 93
+          },
+          "class_1": {
+            "precision": 0.40816326530612246,
+            "recall": 0.9523809523809523,
+            "f1": 0.5714285714285714,
+            "tp": 80,
+            "tn": 115,
+            "fp": 116,
+            "fn": 4
+          },
+          "class_2": {
+            "precision": 0.9655172413793104,
+            "recall": 0.5283018867924528,
+            "f1": 0.6829268292682926,
+            "tp": 28,
+            "tn": 261,
+            "fp": 1,
+            "fn": 25
+          }
+        },
+        "client_id": 1,
+        "train_time": 24.3143470287323,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 321.03,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 412.69,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.7365079365079366,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.900709219858156,
+            "recall": 0.7134831460674157,
+            "f1": 0.7962382445141066,
+            "tp": 127,
+            "tn": 123,
+            "fp": 14,
+            "fn": 51
+          },
+          "class_1": {
+            "precision": 0.9464285714285714,
+            "recall": 0.6309523809523809,
+            "f1": 0.7571428571428572,
+            "tp": 53,
+            "tn": 228,
+            "fp": 3,
+            "fn": 31
+          },
+          "class_2": {
+            "precision": 0.4406779661016949,
+            "recall": 0.9811320754716981,
+            "f1": 0.608187134502924,
+            "tp": 52,
+            "tn": 196,
+            "fp": 66,
+            "fn": 1
+          }
+        },
+        "client_id": 2,
+        "train_time": 25.812384605407715,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 321.65,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 412.63,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      }
+    ],
+    "timing": {
+      "round_time": 123.42735719680786,
+      "total_fl_time": 467.94813895225525
+    }
+  },
+  {
+    "round": 5,
+    "phase": "fl_training",
+    "global_metrics": {
+      "accuracy": 0.707936507936508,
+      "class_metrics": {
+        "class_0": {
+          "precision": 0.9256756756756757,
+          "recall": 0.7696629213483146,
+          "f1": 0.8404907975460123,
+          "tp": 137,
+          "tn": 126,
+          "fp": 11,
+          "fn": 41
+        },
+        "class_1": {
+          "precision": 0.9428571428571428,
+          "recall": 0.39285714285714285,
+          "f1": 0.5546218487394958,
+          "tp": 33,
+          "tn": 229,
+          "fp": 2,
+          "fn": 51
+        },
+        "class_2": {
+          "precision": 0.4015151515151515,
+          "recall": 1.0,
+          "f1": 0.572972972972973,
+          "tp": 53,
+          "tn": 183,
+          "fp": 79,
+          "fn": 0
+        }
+      }
+    },
+    "client_metrics": [
+      {
+        "accuracy": 0.6984126984126984,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.9724770642201835,
+            "recall": 0.5955056179775281,
+            "f1": 0.7386759581881532,
+            "tp": 106,
+            "tn": 134,
+            "fp": 3,
+            "fn": 72
+          },
+          "class_1": {
+            "precision": 0.47398843930635837,
+            "recall": 0.9761904761904762,
+            "f1": 0.6381322957198443,
+            "tp": 82,
+            "tn": 140,
+            "fp": 91,
+            "fn": 2
+          },
+          "class_2": {
+            "precision": 0.9696969696969697,
+            "recall": 0.6037735849056604,
+            "f1": 0.7441860465116279,
+            "tp": 32,
+            "tn": 261,
+            "fp": 1,
+            "fn": 21
+          }
+        },
+        "client_id": 0,
+        "train_time": 24.989614725112915,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 321.27,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 416.06,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.7174603174603175,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.7088607594936709,
+            "recall": 0.9438202247191011,
+            "f1": 0.8096385542168675,
+            "tp": 168,
+            "tn": 68,
+            "fp": 69,
+            "fn": 10
+          },
+          "class_1": {
+            "precision": 0.6,
+            "recall": 0.35714285714285715,
+            "f1": 0.44776119402985076,
+            "tp": 30,
+            "tn": 211,
+            "fp": 20,
+            "fn": 54
+          },
+          "class_2": {
+            "precision": 1.0,
+            "recall": 0.5283018867924528,
+            "f1": 0.6913580246913581,
+            "tp": 28,
+            "tn": 262,
+            "fp": 0,
+            "fn": 25
+          }
+        },
+        "client_id": 1,
+        "train_time": 26.391945123672485,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 321.7,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 412.37,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.6730158730158731,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.8888888888888888,
+            "recall": 0.7191011235955056,
+            "f1": 0.7950310559006211,
+            "tp": 128,
+            "tn": 121,
+            "fp": 16,
+            "fn": 50
+          },
+          "class_1": {
+            "precision": 1.0,
+            "recall": 0.38095238095238093,
+            "f1": 0.5517241379310345,
+            "tp": 32,
+            "tn": 231,
+            "fp": 0,
+            "fn": 52
+          },
+          "class_2": {
+            "precision": 0.37410071942446044,
+            "recall": 0.9811320754716981,
+            "f1": 0.5416666666666666,
+            "tp": 52,
+            "tn": 175,
+            "fp": 87,
+            "fn": 1
+          }
+        },
+        "client_id": 2,
+        "train_time": 25.366363525390625,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 321.86,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 412.74,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      }
+    ],
+    "timing": {
+      "round_time": 122.27410006523132,
+      "total_fl_time": 590.2225782871246
+    }
+  },
+  {
+    "round": 6,
+    "phase": "fine_tuning",
+    "refined_models": [
+      {
+        "accuracy": 0.9047619047619048,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.9542857142857143,
+            "recall": 0.9382022471910112,
+            "f1": 0.9461756373937678,
+            "tp": 167,
+            "tn": 129,
+            "fp": 8,
+            "fn": 11
+          },
+          "class_1": {
+            "precision": 0.9565217391304348,
+            "recall": 0.7857142857142857,
+            "f1": 0.8627450980392156,
+            "tp": 66,
+            "tn": 228,
+            "fp": 3,
+            "fn": 18
+          },
+          "class_2": {
+            "precision": 0.7323943661971831,
+            "recall": 0.9811320754716981,
+            "f1": 0.8387096774193548,
+            "tp": 52,
+            "tn": 243,
+            "fp": 19,
+            "fn": 1
+          }
+        },
+        "client_id": 0,
+        "finetune_time": 23.074125289916992,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 322.89,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 415.62,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.8634920634920635,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.9302325581395349,
+            "recall": 0.898876404494382,
+            "f1": 0.9142857142857143,
+            "tp": 160,
+            "tn": 125,
+            "fp": 12,
+            "fn": 18
+          },
+          "class_1": {
+            "precision": 0.9230769230769231,
+            "recall": 0.7142857142857143,
+            "f1": 0.8053691275167787,
+            "tp": 60,
+            "tn": 226,
+            "fp": 5,
+            "fn": 24
+          },
+          "class_2": {
+            "precision": 0.6666666666666666,
+            "recall": 0.9811320754716981,
+            "f1": 0.7938931297709922,
+            "tp": 52,
+            "tn": 236,
+            "fp": 26,
+            "fn": 1
+          }
+        },
+        "client_id": 1,
+        "finetune_time": 21.96015214920044,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 323.33,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 413.73,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      },
+      {
+        "accuracy": 0.8984126984126984,
+        "class_metrics": {
+          "class_0": {
+            "precision": 0.9479768786127167,
+            "recall": 0.9213483146067416,
+            "f1": 0.9344729344729344,
+            "tp": 164,
+            "tn": 128,
+            "fp": 9,
+            "fn": 14
+          },
+          "class_1": {
+            "precision": 0.8831168831168831,
+            "recall": 0.8095238095238095,
+            "f1": 0.84472049689441,
+            "tp": 68,
+            "tn": 222,
+            "fp": 9,
+            "fn": 16
+          },
+          "class_2": {
+            "precision": 0.7846153846153846,
+            "recall": 0.9622641509433962,
+            "f1": 0.864406779661017,
+            "tp": 51,
+            "tn": 248,
+            "fp": 14,
+            "fn": 2
+          }
+        },
+        "client_id": 2,
+        "finetune_time": 24.1076397895813,
+        "gpu_metrics": {
+          "start": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 322.0,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "end": {
+            "available": true,
+            "device_name": "NVIDIA GeForce RTX 2050",
+            "memory_allocated_mb": 411.78,
+            "memory_reserved_mb": 926.0,
+            "memory_total_mb": 4095.5,
+            "memory_free_mb": 3169.5,
+            "utilization_percent": 22.61
+          },
+          "peak_memory_mb": 926.0
+        }
+      }
+    ],
+    "timing": {
+      "finetune_total_time": 102.50818514823914,
+      "hospitals": {
+        "hospital_0": 23.074125289916992,
+        "hospital_1": 21.96015214920044,
+        "hospital_2": 24.1076397895813
+      }
+    }
+  }
+]
